@@ -6,10 +6,13 @@ public class App
     public static void main( String[] args )
     {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter two numbers:");
-        int a = in.nextInt();
-        int b = in.nextInt();
-        System.out.println("Result: "+sum(a,b));
+        while(true) {
+            System.out.println("Enter two numbers:");
+            int a = in.nextInt();
+            int b = in.nextInt();
+            System.out.println("Result: " + sum(a,b));
+        }
+        in.close();
     }
 
     public static int sum(int a, int b){
