@@ -11,4 +11,3 @@ jobs:
     steps:
       - checkout
       - run: ./mvnw compile
-        name: "Build Sum Calc Application"
