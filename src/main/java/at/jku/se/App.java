@@ -12,7 +12,6 @@ public class App
             int b = in.nextInt();
             System.out.println("Result: " + sum(a,b));
         }
-        in.close();
     }
 
     public static int sum(int a, int b){
