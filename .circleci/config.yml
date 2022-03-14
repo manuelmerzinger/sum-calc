@@ -3,7 +3,12 @@ version: 2.1
 orbs: 
   maven: circleci/maven@1.3.0
 
-workflows:
-  maven_test:
-    jobs:
-      - maven/test
+
+jobs:
+  build:
+    docker:
+      - image: cimg/openjdk:17.0
+    steps:
+      - checkout
+      - run: ./mvnw compile
+        name: "Build Sum Calc Application"
