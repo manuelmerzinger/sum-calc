@@ -11,3 +11,4 @@ jobs:
     steps:
       - checkout
       - run: mvn compile
+      - run: mvn test verify
