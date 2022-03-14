@@ -14,4 +14,4 @@ jobs:
       - run: mvn test verify
       - run: mvn package
       - attach_workspace:
-        at: ./target
+          at: ./target
