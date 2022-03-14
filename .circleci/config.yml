@@ -12,3 +12,5 @@ jobs:
       - checkout
       - run: mvn compile
       - run: mvn test verify
+      - attach_workspace:
+        at: ./target
