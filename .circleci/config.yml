@@ -10,5 +10,5 @@ jobs:
       - image: cimg/openjdk:17.0
     steps:
       - checkout
-      - run: ./mvnw compile
+      - run: mvn compile
         name: "Build Sum Calc Application"
