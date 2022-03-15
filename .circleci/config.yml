@@ -13,6 +13,10 @@ jobs:
       - run: mvn compile
       - run: mvn test verify
       - run: mvn package
+      - run:
+          name: Compress artifact
+          command: zip -r artifact.zip ./target
+
       - store_artifacts :
-          path: ./target
+          path: ./artifact.zip
           destination: package
