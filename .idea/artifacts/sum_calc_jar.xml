@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sum-calc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sum_calc_jar</output-path>
+    <root id="archive" name="sum-calc.jar">
+      <element id="module-output" name="sum-calc" />
+    </root>
+  </artifact>
+</component>
