@@ -82,7 +82,7 @@
                 <archive>
                   <manifest>
                     <mainClass>
-                        com.baeldung.executable.ExecutableMavenJar
+                        at.jku.se.App
                     </mainClass>
                   </manifest>
                 </archive>
