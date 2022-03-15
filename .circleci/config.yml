@@ -19,4 +19,4 @@ jobs:
 
       - store_artifacts :
           path: ./artifact.zip
-          destination: package
+          destination: package.zip
