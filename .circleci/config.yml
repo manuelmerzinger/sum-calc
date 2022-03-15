@@ -15,7 +15,7 @@ jobs:
       - run: mvn clean package
       - run:
           name: Compress artifact
-          command: zip -r artifact.zip ./out
+          command: zip -r artifact.zip .
 
       - store_artifacts :
           path: ./artifact.zip
